@@ -3,7 +3,7 @@ const uuid = require('uuid');
 const app = express();
 const fs = require('fs');
 
-const PORT = 3001; // process.env.PORT ?
+const PORT = process.env.PORT || 3001;
 
 // will share any static html files with the browser
 app.use( express.static('public') );
@@ -17,6 +17,10 @@ let noteList = [{id: "0000-0000-0000-0000", title: 'note1', text: 'note1 text'}]
 
 // Endpoints =================================================
 
+app.get("/", function(req, res) {
+    res.json(path.join(__dirname, "public/index.html"));
+  });
+  
 //read the `db.json` file and return all saved notes as JSON.
 app.get('/api/notes', function(req, res){
     res.json(noteList);
