@@ -5,9 +5,9 @@
 
 An application that can be used to write, save, and delete notes from a JSON file using Express.js. This allows the user to organize thoughts and to keep track of tasks. 
 
-The application is deployed on Heroku here: [Note Taker](https://stormy-depths-87128.herokuapp.com/)
+The application is deployed on Heroku here: [Note Taker](https://salty-woodland-61328.herokuapp.com/)
 
-![screenshot](https://github.com/zeroshii/Note-Taker/blob/main/Develop/public/assets/screenshot.png)
+![screenshot](https://github.com/zeroshii/Note-Taker/blob/main/public/assets/screenshot.png)
 
 ## Table of Contents
 - [Technologies](#technologies)
