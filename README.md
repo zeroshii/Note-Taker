@@ -7,7 +7,7 @@ An application that can be used to write, save, and delete notes from a JSON fil
 
 The application is deployed on Heroku here: [Note Taker](https://stormy-depths-87128.herokuapp.com/)
 
-![screenshot](https://github.com/zeroshii/Project-2/blob/develop/public/assets/images/screenshot.png)
+![screenshot](https://github.com/zeroshii/Note-Taker/blob/main/Develop/public/assets/screenshot.png)
 
 ## Table of Contents
 - [Technologies](#technologies)
